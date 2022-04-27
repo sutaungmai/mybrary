@@ -10,7 +10,6 @@ const bodyParser = require('body-parser')
 const indexRouter = require('./routes/index')
 const authorRouter = require('./routes/authors')
 
-
 app.set('view engine','ejs')
 app.set('views',__dirname+ '/views')
 app.set('layout','layouts/layout')
